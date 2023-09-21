@@ -1,0 +1,19 @@
+{
+  "name": "fastify",
+  "version": "1.0.0",
+  "description": "Fastify-learning",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Abhay",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/swagger": "^8.10.1",
+    "fastify": "^4.23.2",
+    "fastify-swagger": "^5.2.0",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.1"
+  }
+}
